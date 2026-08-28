@@ -1,20 +1,26 @@
-AIO-Module3-Conquer
+# Research on Sales Forecasting
 This GitHub repo is a part of AIO AI Viet Nam's Conquer Program, a small research project relating to Sales Forecasting using ML with Explanable AI (XAI)
 
-Authors: Ngo Huy Hoang, Vo Quang Ha, Ngo Lam Thy, Nguyen Tran Minh Chau
-Project Type: Research Project
-Tech Stack: Python, LightGBM, XGBoost, ARIMA, SARIMA, SHAP (XAI)
-Overview
-Sales Forecasting with Explainable AI (XAI) is a small research project leveraging Machine Learning models to forecast store-level sales with transparency and interpretability.
+- **Authors:** Ngo Huy Hoang, Vo Quang Ha, Ngo Lam Thy, Nguyen Tran Minh Chau
+- **Project Type:** Research Project
+- **Tech Stack:** Python, LightGBM, XGBoost, ARIMA, SARIMA, SHAP (XAI)
 
-The project combines time series modeling with explainability tools, and try to answer these 3 research questions:
+## Overview
+- **Sales Forecasting with Explainable AI (XAI)** is a small research project leveraging Machine Learning models to forecast store-level sales with transparency and interpretability.
+- The project combines time series modeling with explainability tools, and try to answer these 3 research questions:
 
-RQ1 — Model family comparison: global ML vs local statistical Which of LightGBM, XGBoost, ARIMA and SARIMA achieves the best accuracy, and under what series conditions does each win?
-RQ2 — Do the external factors earn their place? How much forecast accuracy do weather, calendar and promotion regressors contribute, and does the contribution differ by model family?
-RQ3 — Attribution agreement and recovery of known drivers Do SHAP attributions from LightGBM and XGBoost agree with each other, with permutation importance, and with SARIMAX coefficients — and do they recover the item-level drivers the generator actually used?
+  - RQ1 — Model family comparison: global ML vs local statistical
+    Which of LightGBM, XGBoost, ARIMA and SARIMA achieves the best accuracy, and under what series conditions does each win?
+  - RQ2 — Do the external factors earn their place?
+    How much forecast accuracy do weather, calendar and promotion regressors contribute, and does the contribution differ by model family?
+  - RQ3 — Attribution agreement and recovery of known drivers
+    Do SHAP attributions from LightGBM and XGBoost agree with each other, with permutation importance, and with SARIMAX coefficients — and do they recover the item-level drivers the generator actually used?
+
 At its core, this project explores different sales forecasting models using LightGBM, XGBoost, ARIMA, and SARIMA (optimized with Optuna), and explained using SHAP (SHapley Additive exPlanations).
 
-Project Structure
+## Project Structure
+
+```bash
 ├── app.py                          # Streamlit web app for user interaction
 ├── check_data/
 │   ├── check_data.xlsx             # Excel file for checking prediction
@@ -51,3 +57,4 @@ Project Structure
 │   ├── ui_predictor/
 │   └── utils/
 └── README.md
+```
