@@ -1,0 +1,4 @@
+model_a,model_b,dm_stat,p_value,equivalent
+LightGBM,XGBoost,-5.324656827703185,1.0114380666337297e-07,False
+LightGBM,SARIMA,-15.977327554963686,0.0,False
+XGBoost,SARIMA,-15.627292738865322,0.0,False

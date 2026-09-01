@@ -1,0 +1,16 @@
+segment_type,segment,model,MASE,n_series
+volume_band,low volume,LightGBM,0.696438757519506,8
+volume_band,low volume,XGBoost,0.801371267018245,8
+volume_band,low volume,SARIMA,0.9572429131992715,8
+volume_band,mid volume,LightGBM,0.7351220111769585,8
+volume_band,mid volume,XGBoost,0.7705796158798429,8
+volume_band,mid volume,SARIMA,1.5800124519598198,8
+volume_band,high volume,LightGBM,0.7417396167012675,8
+volume_band,high volume,XGBoost,0.7990672503438496,8
+volume_band,high volume,SARIMA,1.1871330916953022,8
+cv_band,low volatility,LightGBM,0.6962591752548257,12
+cv_band,low volatility,XGBoost,0.7435296803278226,12
+cv_band,low volatility,SARIMA,1.375781614612447,12
+cv_band,high volatility,LightGBM,0.7526077483436623,12
+cv_band,high volatility,XGBoost,0.8371490751668021,12
+cv_band,high volatility,SARIMA,1.107144023290482,12
