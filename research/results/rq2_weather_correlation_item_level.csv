@@ -1,0 +1,2 @@
+n_items,pearson_range_lo,pearson_range_hi,spearman_range_lo,spearman_range_hi,sign_flips_pearson_vs_spearman,spearman_median,spearman_median_bootstrap_ci_lo,spearman_median_bootstrap_ci_hi
+30,-0.24778797507915148,0.30654114191307824,-0.23692542342143597,0.3113910330676881,2,0.0030075047645122584,-0.014874193358687348,0.03704551180684378

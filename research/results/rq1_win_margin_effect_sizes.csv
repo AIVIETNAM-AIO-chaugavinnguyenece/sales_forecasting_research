@@ -1,0 +1,4 @@
+pair,rank_biserial_r,ci_lo,ci_hi,n_wins,n_total
+LightGBM vs XGBoost,1.0,1.0,1.0,24,24
+LightGBM vs SARIMA,1.0,1.0,1.0,24,24
+XGBoost vs SARIMA,0.98,0.9,1.0,23,24

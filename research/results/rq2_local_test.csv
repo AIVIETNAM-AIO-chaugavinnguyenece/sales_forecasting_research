@@ -1,0 +1,2 @@
+comparison,n,shapiro_p,normal,test,stat,p_raw,median_delta,mean_delta,effect_name,effect,effect_ci_lo,effect_ci_hi
+SARIMA vs SARIMAX,24,3.5686148536906604e-07,False,Wilcoxon signed-rank,35.0,0.0004944801330566406,0.07960090423993804,0.17652633477664156,matched-pairs rank-biserial r,0.7666666666666666,0.4,1.0

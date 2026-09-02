@@ -1,0 +1,2 @@
+comparison,n,shapiro_p,normal,test,stat,p_raw,median_delta,mean_delta,effect_name,effect,effect_ci_lo,effect_ci_hi
+SARIMA: zscore vs raw (no-op check),24,0.0001865838170021021,False,Wilcoxon signed-rank,97.0,0.1355280876159668,-1.873606567170949e-06,-6.904778940317047e-06,matched-pairs rank-biserial r,0.3533333333333334,0.02650000000000001,0.7468333333333339
