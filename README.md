@@ -356,8 +356,7 @@ per-series standardisation been adopted as a default, XGBoost would have scored 
 | **Ngo Lam Thy** | ML Engineer (local models & XAI) | Local model implementation (SARIMA, SARIMAX); statistical analysis protocol and multiple-comparison correction; RQ3 attribution agreement and driver recovery; RQ4 transformation experiments. |
 | **Ngo Huy Hoang** | ML Engineer (global models) | Feature engineering; global model implementation (LightGBM, XGBoost); RQ1 model comparison and significance testing; RQ2 leave-one-group-out ablation. |
 | **Vo Quang Ha** | Data & Analysis Engineer | Exploratory data analysis; data preprocessing; groundtruth quarantine protocol; video and presentation. |
-| **Nguyen Tran Minh Chau** | Technical Lead & Project Manager | Repository setup; data generation and synthetic panel
-design; original codebase creation and code review; master pipeline orchestration; technical report review and finalisation.|
+| **Nguyen Tran Minh Chau** | Technical Lead & Project Manager | Repository setup; data generation and synthetic panel design; original codebase creation and code review; master pipeline orchestration; technical report review and finalisation.|
 
 All members reviewed the final manuscript.
 
